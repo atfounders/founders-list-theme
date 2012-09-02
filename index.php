@@ -169,6 +169,7 @@ get_header(); ?>
 					</li>
 				</ul>		
 			</div>
+			<p class="twitter">twitter</p>
 		</div>
 		
 		<div class="clear"></div>
@@ -182,7 +183,9 @@ get_header(); ?>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 
 	<script type="text/javascript">
-		$('user_post').on('hover').addClass('post_hover');
+		$('a.social').on('click' , function() {
+			$('.twitter').show('slow');
+		});
 	
 	</script>
 
