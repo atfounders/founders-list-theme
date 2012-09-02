@@ -24,7 +24,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -35,7 +35,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -46,7 +46,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -57,7 +57,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -76,7 +76,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -87,7 +87,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -98,7 +98,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -109,7 +109,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -128,7 +128,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -139,7 +139,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -150,7 +150,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
@@ -161,7 +161,7 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-						<ul id="contact_info">
+						<ul class="contact_info">
 							<li class="email">Email</li>
 							<li class="site">Website</li>
 							<li class="phone">Contact</li>
