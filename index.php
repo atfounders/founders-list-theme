@@ -17,6 +17,51 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
 
+			<div id="designers" class="type">
+				<div class="user_info">
+					<p>John Doe</p>
+				</div>
+				<ul>
+					<li clas="email">Email</li>
+					<li class="site">Website</li>
+					<li class="phone">Contact</li>
+				
+				</ul>
+			
+			</div>
+			
+			</br>
+			
+			<div id="developers" class="type">
+				<div class="user_info">
+					<p>John Doe</p>
+				</div>
+				<ul>
+					<li clas="email">Email</li>
+					<li class="site">Website</li>
+					<li class="phone">Contact</li>
+				
+				</ul>
+			
+			</br>
+			
+			</div>
+			
+				<div id="biz_dev" class="type">
+				<div class="user_info">
+					<p>John Doe</p>
+				</div>
+				<ul>
+					<li clas="email">Email</li>
+					<li class="site">Website</li>
+					<li class="phone">Contact</li>
+				
+				</ul>
+			</div>
+			
+			</br>
+			
+			
 			<?php if ( have_posts() ) : ?>
 
 				<?php founderslist_content_nav( 'nav-above' ); ?>
