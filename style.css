@@ -67,6 +67,7 @@ section {
 ol, ul {
 	list-style: none;
 }
+
 table { /* tables still need 'cellspacing="0"' in the markup */
 	border-collapse: separate;
 	border-spacing: 0;
@@ -108,7 +109,7 @@ a img {
 .type {
 	float: left;
 	font-family: Helvetica, sans-serif;
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 	width: 100%;
 }
 
