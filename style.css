@@ -110,17 +110,18 @@ a img {
 	margin-left: 20px;
 }
 
-
 .user_info {
 	font-size: 2em;
-	/*width: 200px; */
+	float: left;
+	width: 200px; 
 
 }
 
-#contact_info {
-	margin-left: 400px;
+.contact_info {
+	float: right;
+	/*margin-left: 400px;*/
 	padding: 0;
-
+	width: 200px;
 }
 
 .type_heading {
@@ -136,6 +137,7 @@ a img {
 
 #user_post {
 	border-bottom: 1px solid #d3d4d6;
+	clear: both;
 	padding-top: 10px;
 }
 
@@ -147,3 +149,5 @@ a img {
 	margin-right: 100px;
 
 }
+
+
