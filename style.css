@@ -135,13 +135,13 @@ a img {
 	cursor: pointer;
 }
 
-#user_post {
+.user_post {
 	border-bottom: 1px solid #d3d4d6;
 	clear: both;
 	padding-top: 10px;
 }
 
-#user_post :hover {
+.user_post:hover {
 	background-color: olive;
 }
 

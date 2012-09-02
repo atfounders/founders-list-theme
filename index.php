@@ -20,7 +20,7 @@ get_header(); ?>
 				<h1 class="type_heading">Designers</h1>
 					</br>
 				<ul>
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -31,7 +31,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -42,7 +42,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -53,7 +53,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -72,7 +72,7 @@ get_header(); ?>
 				<h1 class="type_heading">Developers</h1>
 					</br>	
 				<ul>
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -83,7 +83,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -94,7 +94,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -105,7 +105,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -124,7 +124,7 @@ get_header(); ?>
 					<h1 class="type_heading">Biz Dev</h1>
 						</br>
 					<ul>
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -135,7 +135,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -146,7 +146,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -157,7 +157,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li id="user_post">
+					<li class="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
