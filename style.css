@@ -48,7 +48,7 @@ html {
 }
 body {
 	background: #f3f3f3;
-	width: 650px;
+	width: 750px;
 	margin: auto;
 	padding-bottom: 50px;
 }
@@ -110,44 +110,36 @@ a img {
 	margin-left: 20px;
 }
 
+.type_heading {
+	font-size: 4em;
+	color: #452b1b;
+	font-family: "Helvetica Neue";
+
+}
+
 .user_info {
 	font-size: 2em;
-	float: left;
-	width: 200px; 
+	
+}
 
+.contact_info li {
+	float: left;
+	padding: 10px;
 }
 
 .contact_info {
 	float: right;
-	/*margin-left: 400px;*/
-	padding: 0;
-	width: 200px;
+	padding:10px;
 }
 
-.type_heading {
-	font-size: 4em;
-	color: #452b1b;
-
-}
-
-#post_hover {
-	background-color: yellow;
-	cursor: pointer;
-}
 
 .user_post {
-	border-bottom: 1px solid #d3d4d6;
+	border-bottom: 2px solid #d3d4d6;
 	clear: both;
-	padding-top: 10px;
 }
 
 .user_post:hover {
-	background-color: olive;
-}
-
-.email  {
-	margin-right: 100px;
-
+	background-color: #efebe3;
 }
 
 

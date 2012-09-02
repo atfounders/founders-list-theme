@@ -24,16 +24,11 @@ get_header(); ?>
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
-<<<<<<< HEAD
+
 						<ul class="contact_info">
-							<li class="email">Email</li>
-=======
-						<ul id="contact_info">
-							<li>
-							 <span class="email"><a href="#">Email</a></span>
->>>>>>> No changes
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 							</li>
 						</ul>
 					</li>
@@ -43,9 +38,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -54,9 +49,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -65,9 +60,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -84,9 +79,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -95,9 +90,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -106,9 +101,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -117,9 +112,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+						<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -136,9 +131,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -147,9 +142,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -158,9 +153,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 					
@@ -169,9 +164,9 @@ get_header(); ?>
 							<p>John Doe</p>
 						</div>
 						<ul class="contact_info">
-							<li class="email">Email</li>
-							<li class="site">Website</li>
-							<li class="phone">Contact</li>
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social"><a href="#">Social</a></li>
 						</ul>
 					</li>
 				</ul>		
