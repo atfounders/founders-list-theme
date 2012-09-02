@@ -184,7 +184,7 @@ get_header(); ?>
 
 	<script type="text/javascript">
 		$('a.social').on('click' , function() {
-			$('.twitter').show('slow');
+			$('p.twitter').show('slow');
 		});
 	
 	</script>
