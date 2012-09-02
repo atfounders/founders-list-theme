@@ -101,6 +101,7 @@ a img {
 	-moz-box-shadow: 8px 4px 4px #d3d4d6;
 	-webkit-box-shadow: 8px 4px 4px #d3d4d6;
 	box-shadow: 8px 4px 4px #d3d4d6;
+	padding: 10px;
 
 }
 
@@ -112,7 +113,7 @@ a img {
 
 .user_info {
 	font-size: 2em;
-	width: 200px;
+	/*width: 200px; */
 
 }
 
@@ -131,4 +132,18 @@ a img {
 #post_hover {
 	background-color: yellow;
 	cursor: pointer;
+}
+
+#user_post {
+	border-bottom: 1px solid #d3d4d6;
+	padding-top: 10px;
+}
+
+#user_post :hover {
+	background-color: olive;
+}
+
+.email  {
+	margin-right: 100px;
+
 }
