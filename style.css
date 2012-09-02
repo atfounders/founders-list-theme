@@ -47,7 +47,9 @@ html {
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 body {
-	background: #e3e3e3;
+	background: #f3f3f3;
+	width: 650px;
+	margin: auto;
 }
 article,
 aside,
@@ -90,3 +92,37 @@ a img {
 	border: 0;
 }
 
+/* Custom Styling */
+
+
+#page_layout {
+	background-color: white;
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+
+}
+
+.type {
+	font-family: Helvetica, sans-serif;
+	margin-left: 20px;
+}
+
+
+.user_info {
+	font-size: 2em;
+	width: 200px;
+
+}
+
+#contact_info {
+	margin-left: 400px;
+	padding: 0;
+
+}
+
+.type_heading {
+	font-size: 4em;
+	color: #452b1b;
+
+}

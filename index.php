@@ -16,52 +16,164 @@ get_header(); ?>
 
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
-
+			<div id="page_layout">
 			<div id="designers" class="type">
-				<div class="user_info">
-					<p>John Doe</p>
-				</div>
+				<h1 class="type_heading">Designers</h1>
+					</br>
 				<ul>
-					<li clas="email">Email</li>
-					<li class="site">Website</li>
-					<li class="phone">Contact</li>
-				
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
 				</ul>
-			
 			</div>
 			
 			</br>
 			
-			<div id="developers" class="type">
-				<div class="user_info">
-					<p>John Doe</p>
-				</div>
+			<div id="developers" class="type">	
+				<h1 class="type_heading">Developers</h1>
+					</br>	
 				<ul>
-					<li clas="email">Email</li>
-					<li class="site">Website</li>
-					<li class="phone">Contact</li>
-				
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
 				</ul>
+			</div>
 			
 			</br>
-			
-			</div>
 			
 				<div id="biz_dev" class="type">
-				<div class="user_info">
-					<p>John Doe</p>
-				</div>
-				<ul>
-					<li clas="email">Email</li>
-					<li class="site">Website</li>
-					<li class="phone">Contact</li>
-				
-				</ul>
+					<h1 class="type_heading">Biz Dev</h1>
+						</br>
+					<ul>
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+					
+					<li>
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul id="contact_info">
+							<li class="email">Email</li>
+							<li class="site">Website</li>
+							<li class="phone">Contact</li>
+						</ul>
+					</li>
+				</ul>		
+			</div>
 			</div>
 			
-			</br>
-			
-			
+		</div>
+		
 			<?php if ( have_posts() ) : ?>
 
 				<?php founderslist_content_nav( 'nav-above' ); ?>
