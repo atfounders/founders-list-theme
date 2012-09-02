@@ -117,9 +117,13 @@ a img {
 
 }
 
+a {
+	text-decoration: none;
+}
+
 .user_info {
 	font-size: 2em;
-	
+	padding: auto;	
 }
 
 .contact_info li {
