@@ -13,15 +13,14 @@
  */
 
 get_header(); ?>
-
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
-			<div id="page_layout">
+			<div id="pageLayout">
 			<div id="designers" class="type">
 				<h1 class="type_heading">Designers</h1>
 					</br>
 				<ul>
-					<li>
+					<li id="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -32,7 +31,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li>
+					<li id="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -43,7 +42,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li>
+					<li id="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -54,7 +53,7 @@ get_header(); ?>
 						</ul>
 					</li>
 					
-					<li>
+					<li id="user_post">
 						<div class="user_info">
 							<p>John Doe</p>
 						</div>
@@ -170,37 +169,20 @@ get_header(); ?>
 					</li>
 				</ul>		
 			</div>
-			</div>
+		</div>
 			
 		</div>
 		
-			<?php if ( have_posts() ) : ?>
+		<footer>
+		
+		</footer>
+		
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 
-				<?php founderslist_content_nav( 'nav-above' ); ?>
+	<script type="text/javascript">
+		$('user_post').on('hover').addClass('post_hover');
+	
+	</script>
 
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to overload this in a child theme then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-					?>
-
-				<?php endwhile; ?>
-
-				<?php founderslist_content_nav( 'nav-below' ); ?>
-
-			<?php elseif ( current_user_can( 'edit_posts' ) ) : ?>
-
-				<?php get_template_part( 'no-results', 'index' ); ?>
-
-			<?php endif; ?>
-
-			</div><!-- #content .site-content -->
-		</div><!-- #primary .content-area -->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+		

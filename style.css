@@ -50,6 +50,7 @@ body {
 	background: #f3f3f3;
 	width: 650px;
 	margin: auto;
+	padding-bottom: 50px;
 }
 article,
 aside,
@@ -95,11 +96,11 @@ a img {
 /* Custom Styling */
 
 
-#page_layout {
+#content {
 	background-color: white;
-	-moz-box-shadow: 3px 3px 4px #000;
-	-webkit-box-shadow: 3px 3px 4px #000;
-	box-shadow: 3px 3px 4px #000;
+	-moz-box-shadow: 8px 4px 4px #d3d4d6;
+	-webkit-box-shadow: 8px 4px 4px #d3d4d6;
+	box-shadow: 8px 4px 4px #d3d4d6;
 
 }
 
@@ -125,4 +126,9 @@ a img {
 	font-size: 4em;
 	color: #452b1b;
 
+}
+
+#post_hover {
+	background-color: yellow;
+	cursor: pointer;
 }
