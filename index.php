@@ -68,8 +68,6 @@ get_header(); ?>
 				</ul>
 			</div>
 			
-			</br>
-			
 			<div id="developers" class="type">	
 				<h1 class="type_heading">Developers</h1>
 					</br>	
@@ -172,6 +170,8 @@ get_header(); ?>
 				</ul>		
 			</div>
 		</div>
+		
+		<div class="clear"></div>
 			
 		</div>
 		
