@@ -11,11 +11,17 @@
  * @package founderslist
  * @since founderslist 1.0
  */
-
 get_header(); ?>
+
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<div id="header_logo">
+			<img src="wp-content/themes/founders-list-theme/images/founders-list-logo.png" alt="Founders Logo" width="300px" height="90px" />
+		
+		</div>
+		
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
-			<div id="pageLayout">
+					<div id="pageLayout">			
 			<div id="designers" class="type">
 				<h1 class="type_heading">Designers</h1>
 					</br>
