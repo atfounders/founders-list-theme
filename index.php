@@ -148,18 +148,9 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social">Social</li>
-						</ul>
-					</li>
-					
-					<li class="user_post">
-						<div class="user_info">
-							<p>John Doe</p>
-						</div>
-						<ul class="contact_info">
-							<li class="email"><a href="#">Email</a></li>
-							<li class="site"><a href="#">Website</a></li>
-							<li class="social">Social</li>
+							<li class="social">Social
+							<div class="showMe">Twitter, Facebook, and LinkedIn</div>
+							</li>
 						</ul>
 					</li>
 					
@@ -171,7 +162,20 @@ get_header(); ?>
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
 							<li class="social">Social
-							<p class="showMe">Twitter, Facebook, and LinkedIn</p>
+							<div class="showMe">Twitter, Facebook, and LinkedIn</div>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="user_post">
+						<div class="user_info">
+							<p>John Doe</p>
+						</div>
+						<ul class="contact_info">
+							<li class="email"><a href="#">Email</a></li>
+							<li class="site"><a href="#">Website</a></li>
+							<li class="social">Social
+							<div class="showMe">Twitter, Facebook, and LinkedIn</div>
 							</li>
 						</ul>
 					</li>
@@ -186,10 +190,9 @@ get_header(); ?>
 
 	<script type="text/javascript">
 		$('li.social').on('click' , function(){
-			$('p.showMe').show('fast');
+			$(this).children('div.showMe').toggle(750);
 			
 			});
-		
 	</script>
 			
 		
