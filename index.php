@@ -12,11 +12,9 @@
  * @since founderslist 1.0
  */
 get_header(); ?>
-
-<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-		<div id="header_logo">
-			<img src="wp-content/themes/founders-list-theme/images/founders-list-logo.png" alt="Founders Logo" width="300px" height="90px" />
-		
+		<div id="header_container">
+			<img class="logo" src="wp-content/themes/founders-list-theme/images/founders-list-logo.png" alt="Founders Logo" width="300px" height="90px" />
+			<p class="header_text">The <b>who's who </b> list of <b>people at Founders</b>! Check it out and see if there's someone you can help out or vice versa!</p>
 		</div>
 		
 		<div id="primary" class="content-area">
@@ -34,7 +32,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 							</li>
 						</ul>
 					</li>
@@ -46,7 +44,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -57,7 +55,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -68,7 +66,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 				</ul>
@@ -85,7 +83,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -96,7 +94,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -107,7 +105,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -118,7 +116,7 @@ get_header(); ?>
 						<ul class="contact_info">
 						<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 				</ul>
@@ -137,7 +135,9 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social
+							<p class="showMe">Twitter, Facebook, and LinkedIn</p>
+							</li>
 						</ul>
 					</li>
 					
@@ -148,7 +148,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -159,7 +159,7 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social</li>
 						</ul>
 					</li>
 					
@@ -170,30 +170,33 @@ get_header(); ?>
 						<ul class="contact_info">
 							<li class="email"><a href="#">Email</a></li>
 							<li class="site"><a href="#">Website</a></li>
-							<li class="social"><a href="#">Social</a></li>
+							<li class="social">Social
+							<p class="showMe">Twitter, Facebook, and LinkedIn</p>
+							</li>
 						</ul>
 					</li>
 				</ul>		
 			</div>
-			<p class="twitter">twitter</p>
 		</div>
 		
 		<div class="clear"></div>
 			
 		</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$('li.social').on('click' , function(){
+			$('p.showMe').show('fast');
+			
+			});
+		
+	</script>
+			
 		
 		<footer>
 		
 		</footer>
 		
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-
-	<script type="text/javascript">
-		$('a.social').on('click' , function() {
-			$('p.twitter').show('slow');
-		});
-	
-	</script>
 
 
 		

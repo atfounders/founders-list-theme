@@ -48,7 +48,7 @@ html {
 }
 body {
 	background: #f3f3f3;
-	width: 750px;
+	width: 800px;
 	margin: auto;
 	padding-bottom: 50px;
 }
@@ -119,10 +119,29 @@ a img {
 	font-family: "Helvetica Neue";
 }
 
+#header_container {
+	margin: 10px 0 10px 0px;
+}
 
-#header_logo {
-	font-size: 4em;
-	
+.logo {
+	margin-left: 20px;
+}
+.header_text {
+	float: right;
+	width: 400px;
+	margin: 15px 10px 0px 0px;
+	font-size: 1.5em;
+	font-family: Helvetica, sans-serif; 
+	color: gray;
+	border-top: 1px solid #d3d4d6;
+	border-bottom: 1px solid #d3d4d6;
+	padding: 10px;
+	text-align: center;
+			
+}
+
+.showMe {
+	display: none;
 }
 
 a {
@@ -160,4 +179,9 @@ a {
 
 .clear {
 	clear: both;
+}
+
+.social {
+
+	cursor: pointer;
 }
