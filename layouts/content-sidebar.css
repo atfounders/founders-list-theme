@@ -1,9 +1,9 @@
 /*
-Theme Name: founderslist
+Theme Name: Founders List Theme
 Layout: Content-Sidebar
 */
 
-.site-content {
+#primary {
 	float: left;
 	margin: 0 -25% 0 0;
 	width: 100%;

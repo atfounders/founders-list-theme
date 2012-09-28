@@ -13,8 +13,8 @@
 	<?php } // if ( ! empty( $header_image ) ) ?>
 
  *
- * @package founderslist
- * @since founderslist 1.0
+ * @package Founders List Theme
+ * @since Founders List Theme 1.0
  */
 
 /**
@@ -27,25 +27,25 @@
  *
  * @todo Rework this function to remove WordPress 3.4 support when WordPress 3.6 is released.
  *
- * @uses founderslist_header_style()
- * @uses founderslist_admin_header_style()
- * @uses founderslist_admin_header_image()
+ * @uses founders_list_header_style()
+ * @uses founders_list_admin_header_style()
+ * @uses founders_list_admin_header_image()
  *
- * @package founderslist
+ * @package Founders List Theme
  */
-function founderslist_custom_header_setup() {
+function founders_list_custom_header_setup() {
 	$args = array(
 		'default-image'          => '',
 		'default-text-color'     => '000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'founderslist_header_style',
-		'admin-head-callback'    => 'founderslist_admin_header_style',
-		'admin-preview-callback' => 'founderslist_admin_header_image',
+		'wp-head-callback'       => 'founders_list_header_style',
+		'admin-head-callback'    => 'founders_list_admin_header_style',
+		'admin-preview-callback' => 'founders_list_admin_header_image',
 	);
 
-	$args = apply_filters( 'founderslist_custom_header_args', $args );
+	$args = apply_filters( 'founders_list_custom_header_args', $args );
 
 	if ( function_exists( 'wp_get_theme' ) ) {
 		add_theme_support( 'custom-header', $args );
@@ -58,7 +58,7 @@ function founderslist_custom_header_setup() {
 		add_custom_image_header( $args['wp-head-callback'], $args['admin-head-callback'], $args['admin-preview-callback'] );
 	}
 }
-add_action( 'after_setup_theme', 'founderslist_custom_header_setup' );
+add_action( 'after_setup_theme', 'founders_list_custom_header_setup' );
 
 /**
  * Shiv for get_custom_header().
@@ -71,8 +71,8 @@ add_action( 'after_setup_theme', 'founderslist_custom_header_setup' );
  * @todo Remove this function when WordPress 3.6 is released.
  * @return stdClass All properties represent attributes of the curent header image.
  *
- * @package founderslist
- * @since founderslist 1.1
+ * @package Founders List Theme
+ * @since Founders List Theme 1.1
  */
 
 if ( ! function_exists( 'get_custom_header' ) ) {
@@ -86,15 +86,15 @@ if ( ! function_exists( 'get_custom_header' ) ) {
 	}
 }
 
-if ( ! function_exists( 'founderslist_header_style' ) ) :
+if ( ! function_exists( 'founders_list_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
  *
- * @see founderslist_custom_header_setup().
+ * @see founders_list_custom_header_setup().
  *
- * @since founderslist 1.0
+ * @since Founders List Theme 1.0
  */
-function founderslist_header_style() {
+function founders_list_header_style() {
 
 	// If no custom options for text are set, let's bail
 	// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value
@@ -125,17 +125,17 @@ function founderslist_header_style() {
 	</style>
 	<?php
 }
-endif; // founderslist_header_style
+endif; // founders_list_header_style
 
-if ( ! function_exists( 'founderslist_admin_header_style' ) ) :
+if ( ! function_exists( 'founders_list_admin_header_style' ) ) :
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
  *
- * @see founderslist_custom_header_setup().
+ * @see founders_list_custom_header_setup().
  *
- * @since founderslist 1.0
+ * @since Founders List Theme 1.0
  */
-function founderslist_admin_header_style() {
+function founders_list_admin_header_style() {
 ?>
 	<style type="text/css">
 	.appearance_page_custom-header #headimg {
@@ -155,17 +155,17 @@ function founderslist_admin_header_style() {
 	</style>
 <?php
 }
-endif; // founderslist_admin_header_style
+endif; // founders_list_admin_header_style
 
-if ( ! function_exists( 'founderslist_admin_header_image' ) ) :
+if ( ! function_exists( 'founders_list_admin_header_image' ) ) :
 /**
  * Custom header image markup displayed on the Appearance > Header admin panel.
  *
- * @see founderslist_custom_header_setup().
+ * @see founders_list_custom_header_setup().
  *
- * @since founderslist 1.0
+ * @since Founders List Theme 1.0
  */
-function founderslist_admin_header_image() { ?>
+function founders_list_admin_header_image() { ?>
 	<div id="headimg">
 		<?php
 		if ( 'blank' == get_header_textcolor() || '' == get_header_textcolor() )
@@ -181,4 +181,4 @@ function founderslist_admin_header_image() { ?>
 		<?php endif; ?>
 	</div>
 <?php }
-endif; // founderslist_admin_header_image
+endif; // founders_list_admin_header_image
