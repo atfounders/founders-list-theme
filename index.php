@@ -21,18 +21,64 @@ get_header(); ?>
 
 				<?php founders_list_content_nav( 'nav-above' ); ?>
 
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to overload this in a child theme then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-					?>
-
-				<?php endwhile; ?>
+				<?php
+				
+				$trades = get_terms( 'fl_trade', 'hide_empty=0');
+				
+				foreach( $trades as $trade ) {
+					
+					$args = array(
+						'tax_query'	=> array(
+							array(
+								'taxonomy'	=> 'fl_trade',
+								'field'		=> 'id',
+								'terms'		=> $trade->term_id
+							)
+						)
+					);
+					
+					$post_query = new WP_Query( $args );
+					
+					echo '
+					<div class="trade-group">
+						<h2>' . $trade->name . '</h2>
+						<ul>';
+					
+					while( $post_query->have_posts() ) : $post_query->the_post();
+						$email = get_post_meta( get_the_ID(), '_fl_email_address', true );
+						$rss = get_post_meta( get_the_ID(), '_fl_website_url', true );
+						$twitter = get_post_meta( get_the_ID(), '_fl_twitter_url', true );
+						$facebook = get_post_meta( get_the_ID(), '_fl_facebook_url', true );
+						
+						echo '<li>';
+						echo '<span class="title">' . the_title() . '</span>';
+						
+						echo '<div class="contact-info">';
+							echo '<ul>';
+							if ( $email ) {
+								echo '<li class="email"><a href="mailto:' . $email . '" class="ss-mail"></a></li>';
+							}
+							if ( $rss ) {
+								echo '<li class="rss"><a href="' . $rss . '" class="ss-rss"></a></li>';
+							}
+							if ( $twitter ) {
+								echo '<li class="twitter"><a href="' . $twitter . '" class="ss-twitter"></a></li>';
+							}
+							if ( $facebook ) {
+								echo '<li class="facebook"><a href="' . $facebook . '" class="ss-facebook"></a></li>';
+							}
+							echo '</ul>';
+						echo '</div><!-- .contact-info -->';
+						
+						echo '</li>';
+					endwhile;
+					
+					echo '</ul>
+					</div><!-- .trade-group -->';	
+					
+				}
+				
+				?>
 
 				<?php founders_list_content_nav( 'nav-below' ); ?>
 
@@ -45,5 +91,4 @@ get_header(); ?>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

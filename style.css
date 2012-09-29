@@ -94,6 +94,10 @@ a img {
 /* =Global
 ----------------------------------------------- */
 
+body {
+	background: url( 'images/background.png' );
+	padding: 50px 0;
+}
 body,
 button,
 input,
@@ -304,10 +308,10 @@ textarea {
 
 /* Links */
 a {
-	color: royalblue;
+	color: #;
 }
 a:visited {
-	color: purple;
+	color: #999;
 }
 a:hover,
 a:focus,
@@ -407,6 +411,70 @@ a:active {
 /* =Content
 ----------------------------------------------- */
 
+#page {
+	background: url( 'images/star.png' ) center top no-repeat;
+	font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+	margin: 0 auto;
+	padding: 45px 0 0 0;
+	width: 700px;
+}
+#content {
+	background: url('images/lines.png') center 15px no-repeat;
+	padding: 45px 0 0 0;
+}
+.site-title {
+	font-size: 21px;
+	text-transform: uppercase;
+}
+.site-title a {
+	color: rgb(64, 64, 64);
+	text-decoration: none;
+}
+.trade-group h2 {
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+.trade-group ul {
+	list-style-type: none;
+	margin: 0 0 45px 0;
+	padding: 0;
+}
+.trade-group ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.trade-group li {
+	background: url('images/dot.png') left bottom repeat-x;
+	font-size: 14px;
+}
+.trade-group li li {
+	background: none;
+}
+.trade-group .contact-info {
+	float: right;
+}
+.contact-info li a {
+	color: rgb(64, 64, 64);
+	display: block;
+	text-decoration: none;
+}
+.contact-info li {
+	display: block;
+	float: left;
+}
+.contact-info li.facebook {
+	margin-left: 3px;
+}
+.contact-info li.twitter {
+	margin-left: 5px;
+}
+.contact-info li.rss {
+	margin-left: 6px;
+}
+#masthead {
+	text-align: center;
+}
 .sticky {
 }
 .hentry {
@@ -548,4 +616,17 @@ object {
 /* Search widget */
 #searchsubmit {
 	display: none;
+}
+
+/* =Footer
+----------------------------------------------- */
+
+#colophon {
+	background: url('images/star.png') center bottom no-repeat;
+	font-size: 12px;
+	padding: 40px 0 40px 0;
+	text-align: center;
+}
+#colophon a {
+	text-decoration: none;
 }

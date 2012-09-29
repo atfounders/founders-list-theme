@@ -96,7 +96,9 @@ add_action( 'widgets_init', 'founders_list_widgets_init' );
  */
 function founders_list_scripts() {
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'ss-social', get_template_directory_uri() . '/webfonts/ss-social.css' );
 
+	wp_enqueue_script( 'ss-social-js', get_template_directory_uri() . '/webfonts/ss-social.js' );
 	wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), '20120206', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
